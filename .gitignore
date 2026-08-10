@@ -1,0 +1,26 @@
+# Build outputs
+*.apk
+*.aab
+*.ap_
+build/
+app/build/
+
+# Gradle wrapper jars (keep .properties/.sh/.bat)
+gradle/wrapper/gradle-wrapper.jar
+
+# Local environment
+local.properties
+.gradle/
+*.iml
+.idea/
+
+# Keystore files (keep keystore.properties for CI reference, exclude the key itself)
+*.jks
+*.keystore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Screenshots captured during dev
+shots/

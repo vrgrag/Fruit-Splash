@@ -1,0 +1,331 @@
+[
+  {
+    "name": "apple",
+    "category": "fruits",
+    "file": "fruits/apple.png",
+    "width": 362,
+    "height": 368
+  },
+  {
+    "name": "orange",
+    "category": "fruits",
+    "file": "fruits/orange.png",
+    "width": 396,
+    "height": 365
+  },
+  {
+    "name": "strawberry",
+    "category": "fruits",
+    "file": "fruits/strawberry.png",
+    "width": 389,
+    "height": 345
+  },
+  {
+    "name": "lemon",
+    "category": "fruits",
+    "file": "fruits/lemon.png",
+    "width": 267,
+    "height": 380
+  },
+  {
+    "name": "fruit_energy_crystal",
+    "category": "effects",
+    "file": "effects/fruit_energy_crystal.png",
+    "width": 560,
+    "height": 587
+  },
+  {
+    "name": "apple_tree",
+    "category": "world",
+    "file": "world/apple_tree.png",
+    "width": 357,
+    "height": 342
+  },
+  {
+    "name": "orange_tree",
+    "category": "world",
+    "file": "world/orange_tree.png",
+    "width": 372,
+    "height": 352
+  },
+  {
+    "name": "berry_tree",
+    "category": "world",
+    "file": "world/berry_tree.png",
+    "width": 396,
+    "height": 346
+  },
+  {
+    "name": "lemon_tree",
+    "category": "world",
+    "file": "world/lemon_tree.png",
+    "width": 366,
+    "height": 360
+  },
+  {
+    "name": "fruit_gardener",
+    "category": "player",
+    "file": "player/fruit_gardener.png",
+    "width": 530,
+    "height": 435
+  },
+  {
+    "name": "fruit_juice_drop",
+    "category": "effects",
+    "file": "effects/fruit_juice_drop.png",
+    "width": 436,
+    "height": 627
+  },
+  {
+    "name": "fruit_juice_wave",
+    "category": "effects",
+    "file": "effects/fruit_juice_wave.png",
+    "width": 1269,
+    "height": 516
+  },
+  {
+    "name": "fruit_reward_chest",
+    "category": "rewards",
+    "file": "rewards/fruit_reward_chest.png",
+    "width": 798,
+    "height": 483
+  },
+  {
+    "name": "fruit_shell_shield",
+    "category": "effects",
+    "file": "effects/fruit_shell_shield.png",
+    "width": 617,
+    "height": 609
+  },
+  {
+    "name": "fruit_splash_energy",
+    "category": "effects",
+    "file": "effects/fruit_splash_energy.png",
+    "width": 613,
+    "height": 610
+  },
+  {
+    "name": "bench",
+    "category": "world",
+    "file": "world/bench.png",
+    "width": 356,
+    "height": 236
+  },
+  {
+    "name": "lantern",
+    "category": "world",
+    "file": "world/lantern.png",
+    "width": 396,
+    "height": 450
+  },
+  {
+    "name": "fence",
+    "category": "world",
+    "file": "world/fence.png",
+    "width": 361,
+    "height": 346
+  },
+  {
+    "name": "sign",
+    "category": "world",
+    "file": "world/sign.png",
+    "width": 275,
+    "height": 290
+  },
+  {
+    "name": "rock",
+    "category": "world",
+    "file": "world/rock.png",
+    "width": 345,
+    "height": 354
+  },
+  {
+    "name": "stump",
+    "category": "world",
+    "file": "world/stump.png",
+    "width": 280,
+    "height": 314
+  },
+  {
+    "name": "thorn_bush",
+    "category": "world",
+    "file": "world/thorn_bush.png",
+    "width": 329,
+    "height": 349
+  },
+  {
+    "name": "mud",
+    "category": "world",
+    "file": "world/mud.png",
+    "width": 310,
+    "height": 312
+  },
+  {
+    "name": "garden_path",
+    "category": "world",
+    "file": "world/garden_path.png",
+    "width": 1410,
+    "height": 594
+  },
+  {
+    "name": "beetle",
+    "category": "pests",
+    "file": "pests/beetle.png",
+    "width": 311,
+    "height": 394
+  },
+  {
+    "name": "caterpillar",
+    "category": "pests",
+    "file": "pests/caterpillar.png",
+    "width": 396,
+    "height": 399
+  },
+  {
+    "name": "wasp",
+    "category": "pests",
+    "file": "pests/wasp.png",
+    "width": 396,
+    "height": 361
+  },
+  {
+    "name": "snail",
+    "category": "pests",
+    "file": "pests/snail.png",
+    "width": 326,
+    "height": 385
+  },
+  {
+    "name": "flower",
+    "category": "world",
+    "file": "world/flower.png",
+    "width": 311,
+    "height": 303
+  },
+  {
+    "name": "sprout",
+    "category": "world",
+    "file": "world/sprout.png",
+    "width": 309,
+    "height": 298
+  },
+  {
+    "name": "bush",
+    "category": "world",
+    "file": "world/bush.png",
+    "width": 376,
+    "height": 333
+  },
+  {
+    "name": "herbs",
+    "category": "world",
+    "file": "world/herbs.png",
+    "width": 331,
+    "height": 343
+  },
+  {
+    "name": "grapes",
+    "category": "fruits",
+    "file": "fruits/grapes.png",
+    "width": 298,
+    "height": 401
+  },
+  {
+    "name": "watermelon",
+    "category": "fruits",
+    "file": "fruits/watermelon.png",
+    "width": 369,
+    "height": 393
+  },
+  {
+    "name": "cherries",
+    "category": "fruits",
+    "file": "fruits/cherries.png",
+    "width": 366,
+    "height": 348
+  },
+  {
+    "name": "mango",
+    "category": "fruits",
+    "file": "fruits/mango.png",
+    "width": 299,
+    "height": 353
+  },
+  {
+    "name": "magic_fruit_fountain",
+    "category": "world",
+    "file": "world/magic_fruit_fountain.png",
+    "width": 601,
+    "height": 617
+  },
+  {
+    "name": "sun_seed",
+    "category": "fruits",
+    "file": "fruits/sun_seed.png",
+    "width": 231,
+    "height": 330
+  },
+  {
+    "name": "rain_seed",
+    "category": "fruits",
+    "file": "fruits/rain_seed.png",
+    "width": 235,
+    "height": 330
+  },
+  {
+    "name": "moon_seed",
+    "category": "fruits",
+    "file": "fruits/moon_seed.png",
+    "width": 240,
+    "height": 337
+  },
+  {
+    "name": "rainbow_seed",
+    "category": "fruits",
+    "file": "fruits/rainbow_seed.png",
+    "width": 233,
+    "height": 337
+  },
+  {
+    "name": "starfruit",
+    "category": "fruits",
+    "file": "fruits/starfruit.png",
+    "width": 331,
+    "height": 364
+  },
+  {
+    "name": "dragonfruit",
+    "category": "fruits",
+    "file": "fruits/dragonfruit.png",
+    "width": 379,
+    "height": 404
+  },
+  {
+    "name": "moonberry",
+    "category": "fruits",
+    "file": "fruits/moonberry.png",
+    "width": 335,
+    "height": 390
+  },
+  {
+    "name": "golden_apple",
+    "category": "fruits",
+    "file": "fruits/golden_apple.png",
+    "width": 272,
+    "height": 413
+  },
+  {
+    "name": "restoration_portal",
+    "category": "world",
+    "file": "world/restoration_portal.png",
+    "width": 641,
+    "height": 610
+  },
+  {
+    "name": "upgraded_fruit_tree",
+    "category": "world",
+    "file": "world/upgraded_fruit_tree.png",
+    "width": 640,
+    "height": 648
+  }
+]
