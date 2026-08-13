@@ -24,3 +24,10 @@ Thumbs.db
 
 # Screenshots captured during dev
 shots/
+_preview/
+
+# Gray-flow secrets / QA
+app/google-services.json
+pulp.properties
+*.jks
+*.keystore
