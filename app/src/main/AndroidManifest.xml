@@ -20,7 +20,7 @@
     </queries>
 
     <application
-        android:name=".nectar.NectarApp"
+        android:name=".grove.GroveApp"
         android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:icon="@mipmap/ic_launcher"
@@ -35,16 +35,16 @@
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_channel_id"
-            android:value="nectar_garden_notes" />
+            android:value="ch_jx4grove" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/ic_nectar_flame" />
+            android:resource="@drawable/ic_grove_ember" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
-            android:resource="@color/nectar_flame_tint" />
+            android:resource="@color/grove_flame_tint" />
 
         <activity
-            android:name=".nectar.NectarLaunchActivity"
+            android:name=".grove.HarvestGate"
             android:exported="true"
             android:launchMode="singleTop"
             android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboardHidden|uiMode|density"
@@ -86,7 +86,7 @@
             android:theme="@style/Theme.FruitSplash" />
 
         <activity
-            android:name=".nectar.NectarWebActivity"
+            android:name=".grove.CanopyShell"
             android:exported="false"
             android:launchMode="singleTop"
             android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboardHidden|uiMode|density"
@@ -95,21 +95,21 @@
             android:theme="@style/Theme.FruitSplash" />
 
         <activity
-            android:name=".nectar.NectarInviteActivity"
+            android:name=".grove.TrellisAsk"
             android:exported="false"
             android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboardHidden|uiMode|density"
             android:screenOrientation="fullSensor"
             android:theme="@style/Theme.FruitSplash" />
 
         <activity
-            android:name=".nectar.NectarOfflineActivity"
+            android:name=".grove.QuietCanopy"
             android:exported="false"
             android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboardHidden|uiMode|density"
             android:screenOrientation="fullSensor"
             android:theme="@style/Theme.FruitSplash" />
 
         <service
-            android:name=".nectar.box.NectarPushService"
+            android:name=".grove.crate.GroveNoteService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

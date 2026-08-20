@@ -38,8 +38,8 @@ android {
         applicationId = "com.fruitsplash.fruitsplashgame"
         minSdk = 30
         targetSdk = 35
-        versionCode = 4
-        versionName = "1.0.2"
+        versionCode = 6
+        versionName = "1.0.4"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         buildConfigField("String", "PROBE_LINK", quoted(pulpString("probeLink")))

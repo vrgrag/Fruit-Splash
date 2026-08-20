@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Pack Nectar plaintext into Kotlin intArrayOf lines.
+"""Pack Grove plaintext into Kotlin intArrayOf lines.
 
-Mirror SEED_PHRASE / STREAM_LEN with nectar/mix/NectarXor.kt.
+Mirror SEED_PHRASE / STREAM_LEN with grove/rind/GroveXor.kt.
 """
 
 SEED_PHRASE = "kP9#wL2mQx7!"

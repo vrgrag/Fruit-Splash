@@ -1,0 +1,13 @@
+# Copy to pulp.properties for local QA. pulp.properties is gitignored.
+
+# Debug-only: skip attribution and open the shell at this URL.
+probeLink=
+
+# Debug-only: force af_status, e.g. Non-organic
+forceAfStatus=
+
+# Debug-only: extra campaign fields, URL-encoded key=value&...
+forceParams=
+
+# true keeps a native verdict; false lets debug builds retest.
+stickyVerdict=true

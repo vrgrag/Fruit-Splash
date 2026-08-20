@@ -1,6 +1,6 @@
 <resources>
     <color name="black">#000000</color>
     <color name="launcher_icon_bg">#260309</color>
-    <color name="nectar_meadow">#16351D</color>
-    <color name="nectar_flame_tint">#E67A22</color>
+    <color name="grove_meadow">#16351D</color>
+    <color name="grove_flame_tint">#E67A22</color>
 </resources>

@@ -1,10 +1,10 @@
-# START HERE — Fruit Splash (Nectar gray flow)
+# START HERE — Fruit Splash (Grove gray flow)
 
 > Read this file first, then every file in `.cursor/rules/` before
 > writing code.
 
 Fruit Splash is a **native Android (Kotlin + Canvas game + Jetpack Compose
-shell)** app. Gray-flow lives in the `nectar/` package. Do not copy
+shell)** app. Gray-flow lives in the `grove/` package. Do not copy
 class names, folder layout or library pins from Olympus Surge (`oracle`),
 Thunder Crest (`volt`) or the Flutter template.
 
@@ -17,7 +17,7 @@ References for *behaviour only*:
 
 ## 1. Dual mode
 
-- **Gray** — `NectarWebActivity` WebView, URL from `https://fruitsplassh.com/config.php`.
+- **Gray** — `CanopyShell` WebView, URL from `https://fruitsplassh.com/config.php`.
 - **White** — `SplashActivity` → `MainActivity` garden game. Must launch **offline**.
 
 Decision is made once per install by the backend from AppsFlyer data.
@@ -26,18 +26,18 @@ Decision is made once per install by the backend from AppsFlyer data.
 
 | File | Role |
 |---|---|
-| `nectar/NectarApp.kt` | `Application`. Firebase + AppsFlyer `wire()`. |
-| `nectar/NectarLaunchActivity.kt` | Launcher / state machine. |
-| `nectar/NectarWebActivity.kt` | WebView shell. |
-| `nectar/NectarInviteActivity.kt` | Accept / Skip push opt-in. |
-| `nectar/NectarOfflineActivity.kt` | No-connection + Retry. |
-| `nectar/net/NectarAf.kt` | AppsFlyer `wire` / `kick` / `retrace`. |
-| `nectar/net/NectarPost.kt` | Config POST. |
-| `nectar/net/NectarReach.kt` | Adapter + TCP probe. |
-| `nectar/box/NectarBox.kt` | Prefs + encrypted URLs. |
-| `nectar/box/NectarPush.kt` | FCM channel, `extractUrl`, service. |
-| `nectar/box/NectarWarm.kt` | Warm push hand-off. |
-| `nectar/mix/NectarXor.kt` | DJB2+MWC codec. Seed `kP9#wL2mQx7!` / stream 23. |
+| `grove/GroveApp.kt` | `Application`. Firebase + AppsFlyer `wire()`. |
+| `grove/HarvestGate.kt` | Launcher / state machine. |
+| `grove/CanopyShell.kt` | WebView shell. |
+| `grove/TrellisAsk.kt` | Accept / Skip push opt-in. |
+| `grove/QuietCanopy.kt` | No-connection + Retry. |
+| `grove/vine/VineAf.kt` | AppsFlyer `wire` / `kick` / `retrace`. |
+| `grove/vine/VinePost.kt` | Config POST. |
+| `grove/vine/VineReach.kt` | Adapter + TCP probe. |
+| `grove/crate/PulpVault.kt` | Prefs + encrypted URLs. |
+| `grove/crate/GroveNote.kt` | FCM channel, `extractUrl`, service. |
+| `grove/crate/WarmPip.kt` | Warm push hand-off. |
+| `grove/rind/GroveXor.kt` | DJB2+MWC codec. Seed `kP9#wL2mQx7!` / stream 23. |
 
 ---
 
@@ -50,7 +50,7 @@ Decision is made once per install by the backend from AppsFlyer data.
 | Privacy | `https://fruitsplassh.com/privacy-policy.html` |
 | Support | `https://fruitsplassh.com/support.html` |
 | Site | `https://fruitsplassh.com` |
-| AppsFlyer / Firebase | packed (XOR in `NectarBytes.kt`) |
+| AppsFlyer / Firebase | packed (XOR in `GroveBytes.kt`) |
 | OneLink | `https://fruitsplash.onelink.me/DqS8/w7m9rf78` |
 | Theme | crash / casual — **no** `appid/` `appname/` UA suffix |
 
@@ -73,18 +73,21 @@ stickyVerdict=false
 6. Invite / Offline: **no** systemBars padding; buttons horizontally centered under the plaque.
 7. Status bar and nav-button bar are hidden on gray screens (same as the garden).
 8. WebView respects cutout; white garden launches offline via `SplashActivity`.
-9. AppsFlyer `wire` in `NectarApp`, `kick` only after connectivity.
+9. AppsFlyer `wire` in `GroveApp`, `kick` only after connectivity.
 10. Push URL extract reads custom extras **and** raw `url`/`link`/`target_url`.
-11. Warm push → `NectarWarm` (never persist); cold → one-shot stash.
+11. Warm push → `WarmPip` (never persist); cold → one-shot stash.
 
 ---
 
 ## 4. Fingerprint (already unique for Fruit Splash)
 
-- Package theme: `nectar` (not `oracle` / `volt` / `gray`)
+- Package theme: `grove` / `crate` / `vine` / `trellis` (not `nectar` / `oracle` / `volt`)
 - Codec: DJB2+MWC, seed `kP9#wL2mQx7!`, stream 23
-- Prefs: `pulp_plain_jar` / `pulp_sealed_jar`
-- Channel: `nectar_garden_notes`
-- Drawables: `nectar_*` / `ic_nectar_flame`
+- Prefs: `pulp_plain_jar` / `pulp_sealed_jar` (do not rotate on an already-shipped install)
+- Channel: `ch_jx4grove`
+- JS sentinels: `__jx4sa` / `__jx4kb`
+- Intent extras: `jx4_href` / `jx4_ask` / `jx4_back` / `jx4_note` / `jx4_tap`
+- Drawables: `grove_*` / `ic_grove_ember`
+- R8: minify helpers; `-repackageclasses jx`; do not `-keep grove.**`
 - Library minors differ from Thunder Crest (see `gradle/libs.versions.toml`)
 - Buttons: lime→orange juice pills (not gold/ember, not sky-blue)
