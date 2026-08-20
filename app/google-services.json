@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "441976468944",
+    "project_id": "fruit-splash-db631",
+    "storage_bucket": "fruit-splash-db631.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441976468944:android:38477cc72e598e857435d5",
+        "android_client_info": {
+          "package_name": "com.fruitsplash.fruitsplashgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbqbJAQjcW_qZHG57lrNqzkJTyjNis9Js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

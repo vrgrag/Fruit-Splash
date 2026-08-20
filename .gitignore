@@ -24,3 +24,6 @@ Thumbs.db
 
 # Screenshots captured during dev
 shots/
+
+# Packed-secret source (never ship plaintext credentials)
+pulp.properties

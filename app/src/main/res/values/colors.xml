@@ -1,1 +1,6 @@
-<resources><color name="black">#000000</color></resources>
+<resources>
+    <color name="black">#000000</color>
+    <color name="zest_pip_tint">#FFB300</color>
+    <color name="zest_soil">#16351D</color>
+    <color name="icon_plate">#3C0008</color>
+</resources>
